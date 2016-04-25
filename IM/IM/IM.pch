@@ -1,0 +1,25 @@
+//
+//  IM.pch
+//  IM
+//
+//  Created by pengzhilin on 16/4/25.
+//  Copyright © 2016年 pengzhilin. All rights reserved.
+//
+
+#ifndef IM_pch
+#define IM_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define kWindow [UIApplication sharedApplication].keyWindow
+//主屏幕的大小
+#define KWindowScreen [[UIScreen mainScreen] bounds]
+
+//设备屏幕尺寸
+#define kScreen_Height   ([UIScreen mainScreen].bounds.size.height)
+#define kScreen_Width    ([UIScreen mainScreen].bounds.size.width)
+
+
+#endif /* IM_pch */
